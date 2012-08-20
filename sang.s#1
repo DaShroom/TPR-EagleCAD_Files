@@ -19186,15 +19186,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="MCUPWR" gate="G$1" x="48.26" y="-22.86"/>
 <instance part="MOTPWR" gate="G$1" x="48.26" y="-33.02"/>
 <instance part="SOL_OUT" gate="G$1" x="198.12" y="-22.86"/>
-<instance part="MOTOR_OUT" gate="A" x="-20.32" y="-22.86"/>
-<instance part="I2C_OUT" gate="A" x="-20.32" y="-38.1"/>
+<instance part="MOTOR_OUT" gate="A" x="-5.08" y="-25.4"/>
+<instance part="I2C_OUT" gate="A" x="-5.08" y="-40.64"/>
 <instance part="P+3" gate="1" x="38.1" y="-17.78"/>
 <instance part="P+4" gate="1" x="38.1" y="-27.94"/>
 <instance part="GND5" gate="1" x="30.48" y="-35.56"/>
-<instance part="GND6" gate="1" x="-38.1" y="-43.18"/>
-<instance part="GND7" gate="1" x="0" y="-43.18"/>
-<instance part="P+5" gate="1" x="-38.1" y="-30.48"/>
-<instance part="P+6" gate="1" x="0" y="-30.48"/>
+<instance part="GND6" gate="1" x="-22.86" y="-45.72"/>
+<instance part="GND7" gate="1" x="15.24" y="-45.72"/>
+<instance part="P+5" gate="1" x="-22.86" y="-33.02"/>
+<instance part="P+6" gate="1" x="15.24" y="-33.02"/>
 <instance part="IC1" gate="G$1" x="149.86" y="81.28"/>
 <instance part="IC2" gate="G$1" x="149.86" y="22.86"/>
 <instance part="GND8" gate="1" x="182.88" y="17.78"/>
@@ -19291,12 +19291,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="7"/>
-<wire x1="-22.86" y1="-40.64" x2="-38.1" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-43.18" x2="-22.86" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="8"/>
-<wire x1="-15.24" y1="-40.64" x2="0" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="0" y1="-43.18" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -19435,12 +19435,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="1"/>
-<wire x1="-22.86" y1="-33.02" x2="-38.1" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-35.56" x2="-22.86" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="2"/>
-<wire x1="-15.24" y1="-33.02" x2="0" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="-35.56" x2="15.24" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -19472,8 +19472,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M1+" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="1"/>
-<wire x1="-22.86" y1="-17.78" x2="-38.1" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-38.1" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-20.32" x2="-22.86" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-22.86" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="1Y"/>
@@ -19484,8 +19484,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M2+" class="0">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="3"/>
-<wire x1="-22.86" y1="-20.32" x2="-38.1" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-38.1" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-22.86" x2="-22.86" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-22.86" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="4Y"/>
@@ -19496,8 +19496,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M3+" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="5"/>
-<wire x1="-22.86" y1="-22.86" x2="-38.1" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-38.1" y="-22.86" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-25.4" x2="-22.86" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-22.86" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="1Y"/>
@@ -19508,8 +19508,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M1-" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="2"/>
-<wire x1="-15.24" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="91"/>
-<label x="0" y="-17.78" size="1.778" layer="95"/>
+<wire x1="0" y1="-20.32" x2="15.24" y2="-20.32" width="0.1524" layer="91"/>
+<label x="15.24" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="2Y"/>
@@ -19520,8 +19520,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M4+" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="7"/>
-<wire x1="-22.86" y1="-25.4" x2="-38.1" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-38.1" y="-25.4" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-27.94" x2="-22.86" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-22.86" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="4Y"/>
@@ -19532,8 +19532,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M2-" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="4"/>
-<wire x1="-15.24" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
-<label x="0" y="-20.32" size="1.778" layer="95"/>
+<wire x1="0" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
+<label x="15.24" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="3Y"/>
@@ -19544,8 +19544,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M3-" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="6"/>
-<wire x1="-15.24" y1="-22.86" x2="0" y2="-22.86" width="0.1524" layer="91"/>
-<label x="0" y="-22.86" size="1.778" layer="95"/>
+<wire x1="0" y1="-25.4" x2="15.24" y2="-25.4" width="0.1524" layer="91"/>
+<label x="15.24" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="2Y"/>
@@ -19556,8 +19556,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="M4-" class="1">
 <segment>
 <pinref part="MOTOR_OUT" gate="A" pin="8"/>
-<wire x1="-15.24" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
-<label x="0" y="-25.4" size="1.778" layer="95"/>
+<wire x1="0" y1="-27.94" x2="15.24" y2="-27.94" width="0.1524" layer="91"/>
+<label x="15.24" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="3Y"/>
@@ -19568,13 +19568,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="SDA" class="0">
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="3"/>
-<wire x1="-22.86" y1="-35.56" x2="-38.1" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-38.1" y="-35.56" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-38.1" x2="-22.86" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-22.86" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="4"/>
-<wire x1="-15.24" y1="-35.56" x2="0" y2="-35.56" width="0.1524" layer="91"/>
-<label x="0" y="-35.56" size="1.778" layer="95"/>
+<wire x1="0" y1="-38.1" x2="15.24" y2="-38.1" width="0.1524" layer="91"/>
+<label x="15.24" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT17/SDA)PC1"/>
@@ -19585,13 +19585,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="SCL" class="0">
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="5"/>
-<wire x1="-22.86" y1="-38.1" x2="-38.1" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-38.1" y="-38.1" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-40.64" x2="-22.86" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-22.86" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="I2C_OUT" gate="A" pin="6"/>
-<wire x1="-15.24" y1="-38.1" x2="0" y2="-38.1" width="0.1524" layer="91"/>
-<label x="0" y="-38.1" size="1.778" layer="95"/>
+<wire x1="0" y1="-40.64" x2="15.24" y2="-40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT16/SCL)PC0"/>
