@@ -20617,7 +20617,6 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<frame x1="-71.12" y1="-83.82" x2="304.8" y2="119.38" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="53.34" y="55.88"/>
